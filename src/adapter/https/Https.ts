@@ -1,4 +1,4 @@
-import { Character } from "../config/Entities";
+import { Character } from "../../config/entities/Entities";
 
 interface HttpsConfig {
     url: string,
