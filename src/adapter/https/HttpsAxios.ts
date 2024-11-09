@@ -3,7 +3,7 @@ import { HttpsConfig } from "./Https";
 import axios, { AxiosInstance } from "axios";
 import Https from "./Https";
 
-class HttpsAxios extends Https {
+export default class HttpsAxios extends Https {
     
     axios: AxiosInstance;
 
