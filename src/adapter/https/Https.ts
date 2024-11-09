@@ -1,6 +1,6 @@
 import { Character } from "../../config/entities/Entities";
 
-interface HttpsConfig {
+export interface HttpsConfig {
     url: string,
     route: string,
 }
