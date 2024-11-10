@@ -15,5 +15,5 @@ export default abstract class Https {
         this.route = route;
     }
 
-    abstract getCharacters(): Promise<Character>;
+    abstract getCharacters(): Promise<Character[]>;
 }

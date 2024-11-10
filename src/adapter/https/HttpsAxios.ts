@@ -16,7 +16,7 @@ export default class HttpsAxios extends Https {
         });
     }
 
-    async getCharacters(): Promise<Character> {
+    async getCharacters(): Promise<Character[]> {
         return (await this.axios.get(
             this.route,
             {
